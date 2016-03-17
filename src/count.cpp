@@ -11,6 +11,15 @@ ERROR CASES: Return -1 in error cases.
 
 NOTES:
 */
-int count(int num1, int num2) {
-	return 0;
+
+
+  int count(int x, int y)
+{
+	if (x == 0)
+		return -1;
+	if (y == 1 || y == 0)
+		return 0;
+	return  y / x;
+
+
 }
